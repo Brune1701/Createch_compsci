@@ -53,7 +53,8 @@ def show_article():
     print (content)
 
 
+
+
 #rajouter supp commentaire 
-#pas de comm vide 
 #bien type/ commente et documente 
 #main = route pour les commentaires app.get app.post 
