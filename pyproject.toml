@@ -4,8 +4,12 @@ version = "0.1.0"
 requires-python = ">=3.13"
 dependencies = [
     "fastapi[standard]>=0.141.1",
+    "markdown>=3.10.3",
 ]
 
 [tool.basedpyright]
 venvPath = "."
 venv = ".venv"
+
+[tool.fastapi]
+entrypoint = "main:app"
